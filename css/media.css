@@ -1,0 +1,210 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 1103px) {
+	.navigation-panel{
+		font-size: 13px;
+	}
+	.order_call{
+		font-size: 13px;
+	}
+	.navigation-panel ul li{
+		padding: 15px 0px;
+	}
+	.adva-container{
+		font-size: 2.5em;
+	}
+	.location{
+		font-size: 0.7em;
+	}
+	.location_description{
+		font-size: 0.65em;
+	}
+	.main_advantages{
+	font-size: 0.5em;
+	}
+	.main_advantages ul li i{
+	font-size: 6em;
+	}
+}
+/* Small Devices, Tablets */
+
+@media only screen and (max-width : 768px) {
+	
+	.location{
+		margin: 0px;
+	}
+	.adva-container{
+		padding: 30px 0 0;
+	}
+	.main_contacts{
+		text-align: center;
+		padding-top: 40px;
+	}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	.YandexMap{
+		display: none;
+	}
+	.YandexMapSmall{
+		display: block;
+		padding: 0;
+	}
+	.main_advantages{
+		font-size: 0.4em;
+	}
+	.main_advantages ul li i{
+		font-size: 5em;
+		margin-top: 50px;
+	}
+	.clean{
+		text-align: center;
+		width: 90%
+	}
+	.motivation{
+		padding: 30px 20px;
+	}
+	.motivation h1{
+		font-size: 1.7em;
+		width: 100%;
+	}
+	.motivation p{
+		font-size: 1.3em;
+		width: 100%;
+	}
+	.motivation button{
+		margin: 15px
+	}
+	.specifications-main{
+		padding: 50px 0;
+	}
+	.specifications-main h1{
+		font-size: 1.8em;
+		margin-bottom: 50px;
+	}
+	.specifications-main table{
+		font-size: 0.9em;
+	}
+	.floors{
+		font-size: 0.7em
+	}
+	.main_contacts{
+		font-size: 1.2em;
+		padding: 30px 0;
+	}
+	.contacts_headline{
+		font-size: 2em;
+	}
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+	.navigation-panel{
+		float: none;
+		text-align: center;
+		font-size: 16px;
+		margin-top: 30px
+	}
+	.navigation-panel ul li{
+		display: block;
+		
+	}
+	.order_call{
+		font-size: 16px;
+		margin-top: 30px
+	}
+	.headline{
+		margin-top: 70px;
+	}
+	.headline h1{
+		font-size: 200%;
+	}
+	.headline_description h2{
+		font-size: 140%;
+	}
+	
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+	.navigation-panel{
+		float: none;
+		text-align: center;
+		font-size: 16px;
+		margin-top: 30px
+	}
+	.navigation-panel ul li{
+		display: block;
+		
+	}
+	.order_call{
+		font-size: 16px;
+		margin-top: 30px
+	}
+	.headline{
+		margin-top: 70px;
+	}
+	.headline h1{
+		font-size: 200%;
+	}
+	.headline_description h2{
+		font-size: 170%;
+		padding-top: 40px;
+	}
+	.description{
+		font-size: 16px;
+		width: 300px;
+	}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+}
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+	.headline{
+		margin-top: 100px;
+	}
+	.YandexMap{
+		display: block;
+	}
+	.YandexMapSmall{
+		display: none;
+	}
+}
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+	.navigation-panel{
+		float: left;
+		width: 100%;
+	}
+	.navigation-panel ul li{
+		display: inline-block;
+		padding: 0 10px;
+	}
+	.headline h1{
+		font-size: 270%;
+	}
+	.headline_description h2{
+		font-size: 200%;
+	}
+	.description{
+		font-size: 20px;
+		width: 400px;
+	}
+}
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+	
+}

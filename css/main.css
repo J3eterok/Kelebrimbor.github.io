@@ -1,0 +1,336 @@
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+	border: red 3px solid;
+}
+body input:required:valid,
+body textarea:required:valid {
+	border: green 3px solid;
+}
+body {
+	font-family: "RobotoRegular", sans-serif;
+	font-size: 16px;
+}
+
+/*------------Top header-----------*/
+.nav-container{
+	padding: 0px;
+	width: 100%;
+}
+.nav_row{
+	margin: 0px;
+}
+.navigation-panel {
+	position: relative;
+	top: 40%;
+	float: left;
+	padding: 0px;
+	font-size: 16px;
+	font-family: sans-serif;
+}
+
+.navigation-panel ul{
+	list-style-type: none;
+	padding: 0;
+}
+
+.navigation-panel ul li{
+	display: inline-block;
+	padding: 0px 10px;
+}
+.navigation-panel ul li a:hover{
+	cursor: pointer;
+}
+
+.logo-img{
+	display: block;
+	margin: 0 auto;
+	width: 200px
+}
+.button:hover{
+	text-decoration: none;
+}
+.order_call{
+	display: block;
+	margin: auto;
+	position: relative;
+	top: 40%;
+	background-color: white;
+	border-style: solid;
+	padding: 3px 30px;
+	border-color: #6C252D;
+	font-family: sans-serif;
+	border-width: 2px;
+}
+.order_call:hover{
+	cursor: pointer;
+	text-decoration: none;
+}
+/*------------headline-----------*/
+.headline{
+	margin-top: 160px;
+	text-align: center;
+	font-family: RobotoBold;
+}
+.headline_description{
+	text-align: center;
+}
+.headline_description h2{
+	color: #6C252D;
+}
+.phone_number{
+	margin-top: 40px;
+	color: grey;
+	font-size: 19px;
+}
+/*------------Main image-----------*/
+.main_img{
+	position: relative;
+	min-width: 320px;
+	max-width: 728px;
+	text-align: center;
+	margin: 100px auto 20px;
+}
+.main_img img{
+	width: 100% !important;
+}
+.description{
+	margin: 5px auto;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 20px;
+	font-family: RobotoMedium;
+	font-weight: 600;
+	width: 400px;
+	min-width: 200px;
+	border-radius: 20px;
+	border-style: solid;
+	border-width: 2px;
+	border-color: #6C252D;
+}
+/*------------Advantages-----------*/
+.adva-container{
+	margin: 150px 0 0;
+	color: darkslategrey;
+	padding: 100px 0 0;
+	background-color: #F1F1F1;
+	font-family: RobotoMedium;
+	font-weight: 600;
+	font-size: 50px;
+	display: block;
+}
+.adv{
+	margin: 0;
+}
+.advantages{
+	margin: 0 auto;
+	width: 100%;
+	text-align: center;
+}
+.loc{
+	margin: 50px 0;
+}
+.location{
+	font-size: 30px;
+	font-family: sans-serif;
+	margin-top: 100px;
+	text-align: center;
+	color: darkslategrey;
+}
+.location_description{
+	text-align: left;
+	padding: 18px;
+	color: black;
+	font-size: 20px
+}
+.main-adv-row{
+	margin: 0px;
+}
+.main-adv-col{
+	padding:0;
+}
+.main_advantages{
+	padding: 50px 0;
+	color: darkslategrey;
+	text-align: center;
+	margin: 100px 0 0;
+	font-size: 0.5em;
+	text-align: center;
+	background-color: #dbdbdb;
+}
+.main_advantages ul{
+	padding: 0px;
+}
+.main_advantages ul li{
+	margin: 50px 0;
+	list-style-type: none;
+}
+.main_advantages ul li i{
+	color: #6C252D;
+	font-size: 5.5em;
+}
+.clean-row{
+	margin: 0px;
+}
+.clean{
+	position: absolute;
+	top: 30%;
+	text-align: left;
+}
+/*------------Motivation Activity-----------*/
+.motivation_activity .container-fluid{
+	padding: 0 !important;
+}
+.motivation_activity .container-fluid .row{
+	margin: 0 !important;
+}
+.motivation_activity .container-fluid .row .col-12{
+	padding: 0 !important;
+}
+.motivation{
+	padding: 100px;
+	background-color: #6C252D;
+	color: white;
+	text-align: center;
+}
+.motivation h1{
+	font-weight: 600;
+	text-align: center;
+}
+.motivation p{
+	margin-top: 30px;
+	text-align: center;
+	font-size: 1.7em
+}
+.motivation button{
+	margin: 4em 0 2em;
+	border-style: none;
+	background-color: white;
+	padding: 12px 50px;
+	border-radius: 7px;
+	font-size: 1.1em;
+	font-weight: 700;
+	color: #6C252D;
+}
+.motivation button:hover{
+	cursor: pointer;
+}
+/*------------Specifications-----------*/
+.specific-col{
+	padding: 0 !important;
+}
+.specifications-main{
+	text-align: center;
+	padding: 150px 0 100px;
+}
+.specifications-main h1{
+	margin-bottom: 70px;
+	font-weight: 600;
+}
+.spec-table{
+	height: 100%;
+	font-size: 1.2em;
+}
+.spec-table th{
+	text-align: left;
+}
+.spec-table th span{
+	position: relative;
+	float: right;
+}
+.spec-table td{
+	text-align: center;
+}
+/*------------Specifications-floors-----------*/
+.specifications-floors
+{
+	text-align: center;
+	font-size: 1.2em;
+	font-weight: 500;
+	padding-bottom: 90px;
+}
+.floors
+{
+	border-radius: 5px;
+	padding: 5px;
+	color: white;
+	margin-top: 20px;
+	background-color: #6C252D;
+}
+.floors:hover
+{
+	cursor: pointer;
+	background-color: #ff9999;
+}
+.floors_description{
+	display: none;
+}
+.floors_description img{
+	display: block;
+    max-width: 100%;
+    max-height: 100%;
+	margin: 0 auto;
+}
+/*------------Contacts-----------*/
+.contacts{
+	padding: 100px 0 110px;
+	background: #F1F1F1;
+}
+.contacts_headline{
+	text-align: center;
+	font-weight: 600;
+}
+.main_contacts{
+	padding: 100px 10px;
+	font-family: RobotoLight;
+	font-size: 1.8em;
+}
+.main_contacts a{
+	color: #ff4d4d;
+}
+.main_contacts a:hover{
+	text-decoration: none;
+}
+.address{
+	display: inline-block;
+	margin-top: 50px;
+	font-size: 0.8em
+}
+.references{
+	margin-top: 20px;
+	color: #ff4d4d;
+}
+.references i{
+	padding-right: 10px
+}
+.feedback input{
+	margin-bottom: 20px;
+}
+.feedback button{
+	margin-top: 40px;
+	background-color: #ff4d4d;
+	color: white;
+	font-size: 0.6em;
+	font-family: Arial;
+	padding: 13px 40px;
+	border-radius: 10px;
+}
+.hidden{
+	display: none;
+}
+.pop_form input{
+	display: block;
+	line-height: 24px;
+	margin: 0 auto 12px;
+	width:90%;
+}
+.pop_form button{
+	margin: 20px auto;
+}
+.pop_form h3{
+	margin: 10px auto 15px;
+	text-align: center;
+	font-weight: normal;
+	font-family: "Arial";
+	color: #6C252D;
+	text-transform: uppercase;
+}
