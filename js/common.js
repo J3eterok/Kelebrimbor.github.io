@@ -51,7 +51,7 @@ $(document).ready(function() {
 	//Документация: http://api.jquery.com/jquery.ajax/
 	$("#callback").submit(function() {
 		$.ajax({
-			type: "POST",
+			type: "GET",
 			url: "mail.php",
 			data: $("#callback").serialize()
 		}).done(function() {
@@ -64,7 +64,7 @@ $(document).ready(function() {
 	});
 	$(".contacts_callback").click(function() {
 			$.ajax({
-				type: "POST",
+				type: "GET",
 				url: "mail_contacts.php",
 				data: $("#feed").serialize()
 			}).done(function() {
