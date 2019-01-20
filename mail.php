@@ -3,8 +3,8 @@
 $recepient = "habipovna@mail.ru";
 $sitename = "K. Marks, 16";
 
-$name = trim($_POST["name"]);
-$phone = trim($_POST["phone"]);
+$name = trim($_GET["name"]);
+$phone = trim($_GET["phone"]);
 
 $pagetitle = "Новая заявка с сайта \"$sitename\"";
 $message = "Имя: $name \nТелефон: $phone";
